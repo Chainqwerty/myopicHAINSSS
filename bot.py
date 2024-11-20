@@ -15,7 +15,7 @@ def send_welcome(message):
     keyboard.add(
         InlineKeyboardButton(
             text="Открыть Chainhash",
-            web_app=WebAppInfo(url="https://0000dgsgdsgdsgsdggddf.github.io/myopicHAIN/")  # Укажите свой URL
+            web_app=WebAppInfo(url="https://chainqwerty.github.io/myopicHAINSSS/")  # Укажите свой URL
         )
     )
     # Отправляем приветственное сообщение

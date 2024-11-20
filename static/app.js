@@ -5,5 +5,9 @@ document.getElementById("start-mining").addEventListener("click", () => {
     tg.MainButton.text = "Стоп";
     tg.MainButton.show();
 });
+// Example JavaScript for interactivity
+document.getElementById('startMining').addEventListener('click', function() {
+    alert('Начинается майнинг!');
+});
 
 tg.ready();

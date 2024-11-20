@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chainhash</title>
-    <link rel="stylesheet" href="/static/styles.css">
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <title>Myopiachain - Mining Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="app">
-        <h1>#Chainhash</h1>
-        <p>Добро пожаловать в вашу майнинг-панель!</p>
-        <button id="start-mining">Начать майнинг</button>
-        <div id="status"></div>
+    <div class="container">
+        <header>
+            <h1>#Myopiachain</h1>
+        </header>
+        <section class="profile">
+            <h2>Мой профиль</h2>
+            <p>Баланс: <span id="balance">20.02</span></p>
+            <p>Энергия: <span id="energy">1,788</span></p>
+        </section>
+        <section class="info">
+            <h2>Информация</h2>
+            <p>Блок: <span id="block">#251206</span></p>
+            <p>Сложность: <span id="difficulty">14.9k</span></p>
+            <p>Награда: <span id="reward">686</span></p>
+        </section>
+        <section class="mining">
+            <h2>Майнинг</h2>
+            <p>Статус: <span id="status">Ожидание</span></p>
+            <p>Shares: <span id="shares">196</span></p>
+            <p>Хэши: <span id="hashes">103.4M</span></p>
+            <p>Доход: <span id="income">9.99</span></p>
+            <button id="startMining">Начать майнинг</button>
+        </section>
     </div>
     <script src="/static/app.js"></script>
 </body>
